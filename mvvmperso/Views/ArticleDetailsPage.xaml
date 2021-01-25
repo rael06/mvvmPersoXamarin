@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="mvvmperso.Views.ArticleDetailsPage"
+    BindingContext="{Binding ArticleDetailsViewModel, Source={StaticResource Locator}}"
+    Title="Details">
+
+    <StackLayout>
+        <Label Text="{Binding Article.Title}"></Label>
+    </StackLayout>
+</ContentPage>
